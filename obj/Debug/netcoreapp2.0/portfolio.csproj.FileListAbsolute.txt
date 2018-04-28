@@ -1,0 +1,10 @@
+/Users/rose/Desktop/DojoAssignments/netCore/ASP.Net/portfolio/bin/Debug/netcoreapp2.0/portfolio.deps.json
+/Users/rose/Desktop/DojoAssignments/netCore/ASP.Net/portfolio/bin/Debug/netcoreapp2.0/portfolio.runtimeconfig.json
+/Users/rose/Desktop/DojoAssignments/netCore/ASP.Net/portfolio/bin/Debug/netcoreapp2.0/portfolio.runtimeconfig.dev.json
+/Users/rose/Desktop/DojoAssignments/netCore/ASP.Net/portfolio/bin/Debug/netcoreapp2.0/portfolio.dll
+/Users/rose/Desktop/DojoAssignments/netCore/ASP.Net/portfolio/bin/Debug/netcoreapp2.0/portfolio.pdb
+/Users/rose/Desktop/DojoAssignments/netCore/ASP.Net/portfolio/obj/Debug/netcoreapp2.0/portfolio.csproj.CoreCompileInputs.cache
+/Users/rose/Desktop/DojoAssignments/netCore/ASP.Net/portfolio/obj/Debug/netcoreapp2.0/portfolio.AssemblyInfoInputs.cache
+/Users/rose/Desktop/DojoAssignments/netCore/ASP.Net/portfolio/obj/Debug/netcoreapp2.0/portfolio.AssemblyInfo.cs
+/Users/rose/Desktop/DojoAssignments/netCore/ASP.Net/portfolio/obj/Debug/netcoreapp2.0/portfolio.dll
+/Users/rose/Desktop/DojoAssignments/netCore/ASP.Net/portfolio/obj/Debug/netcoreapp2.0/portfolio.pdb

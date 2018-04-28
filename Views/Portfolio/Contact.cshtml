@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset='utf-8'>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+        <link href="assets/css/bootstrap-responsive.css" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Molle:400i|Poppins:400,400i" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Permanent+Marker" rel="stylesheet">
+        <link rel ="stylesheet" href="~/css/portfolio.css"/>     
+        <title>Contacts</title>
+    </head>
+    <body>
+        @{ DateTime CurrentTime = DateTime.Now;
+        <div class="container-contacts">
+            <div class="row">
+                <div class="d-inline w-50">
+                    <nav class="navbar navbar-expand-lg navy">
+                        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                            <ul class="navbar-nav mr-auto">
+                                <li class="nav-item dropdown">
+                                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                    Links
+                                    </a>
+                                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                        <a class="dropdown-item" href="/Home">Home</a>
+                                        <a class="dropdown-item" href="/Home/Projects">Project</a>
+                                    <div class="dropdown-divider"></div>
+                                        <a class="dropdown-item" href="/Home/Projects/Contact">Contact</a>
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+                    </nav>
+                </div>  
+                <div class="d-inline text-white p-3 ml-auto w-10 pr-4">
+                   @CurrentTime.ToString("h : mm tt")
+                </div>
+            </div>
+             <div class="row justify-content-center ml-5 mt-5 text-white ">
+                <div class="d-inline col">
+                    <p class="contact-title w-100">Contact Me</p>
+                    <form>
+                        <div class="form-group w-50">
+                            <label for="InpuName">Name</label>
+                            <input type="name" class="form-control" id="InputName" aria-describedby="emailHelp" >
+                        </div>
+                        <div class="form-group w-50">
+                            <label for="InputEmail1">Email address</label>
+                            <input type="email" class="form-control" id="InputEmail1" aria-describedby="emailHelp">
+                        </div>
+                        <div class="form-group w-50">
+                            <label for="FormControlTextarea1">Message</label>
+                            <textarea class="form-control" id="FormControlTextarea1" rows="5"></textarea>
+                        </div>            
+                        <button type="submit" class="btn btn-danger offset-md-5">Submit</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    }
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    </body>
+</html>
+
